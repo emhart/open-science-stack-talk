@@ -1,0 +1,69 @@
+---
+title       : Open Science Stack
+subtitle    : 
+author      : Edmund Hart <edmund.m.hart@gmail.com>
+job         : 
+framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+revealjs    : {theme: solarized, transition: none}
+hitheme     : solarized_dark   # 
+widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+--- ds:noborder
+
+## The open science stack
+#### Better living through open science
+![](assets/img/stack.png)
+
+twitter: @emhart_
+--- 
+
+## What is open science??
+
+
+```r
+library(ggplot2)
+qplot(wt, mpg, data = mtcars)
+```
+
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
+---
+
+## The rise of open science
+
+---
+## What are the advantages of open science
+
+---
+
+## What is the open science stack?
+
+---
+
+## Open lab notebook
+
+---
+
+## Open lab notebook example
+
+Snippet from Carl's notebook
+
+--- 
+
+## Open data
+
+---
+
+## Advantages of open data
+
+---
+
+## 
+
+
+
+
+
+
+
