@@ -11,6 +11,7 @@ widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 --- ds:noborder
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 ## The open science stack
 #### Better living through open science
@@ -51,37 +52,18 @@ Complete transparency in the scientific process
 ## Advantages of open science
 <br><br>
 
-* Efficiency in the research cycle 
+> * Efficiency in the research cycle 
+> * Greater collaboration / scrutiny
+> * New research capabilities
+> * Increased impact
 
----
-
-## Advantages of open science
-
-<br><br>
-* Efficiency in the research cycle 
-* Greater collaboration / scrutiny
-
----
-## Advantages of open science
-<br><br>
-
-* Efficiency in the research cycle 
-* Greater collaboration / scrutiny
-* New research capabilities
-
-
-
----
-## Advantages of open science
-
-<br><br>
-* Efficiency in the research cycle 
-* Greater collaboration / scrutiny
-* New research capabilities
-* Increased impact
-
-<font size = 4>*(Whyte and Prior 2011)*
+<font size = 4 class="fragment">*(Whyte and Prior 2011)*
 </font>
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
 
 ---
 
@@ -108,19 +90,66 @@ A stack is a complete group of components that work together to produce a goal.
 <br><br>
 __Open science stack is all the tools you need to produce open science__
 
----
+--- ds:noborder
 
 ## Open lab notebook
 
----
+![](assets/img/carl1.png)
+<br>
 
-## Open lab notebook example
+<font size = 4>*http://www.carlboettiger.info/lab-notebook.html*
+</font>
 
-Snippet from Carl's notebook
+--- ds:noborder
+
+## Virtual department on twitter
+
+![](assets/img/tweetdept.png)
+<br>
+<font size = 4>*(Figure 2A - Darling et al 2013)*
+</font>
+
+--- &twocol ds:noborder
+
+## Virtual department on twitter
+
+*** =left
+
+![](assets/img/rails.png)
+
+
+
+*** =right
+![](assets/img/cook.png)
+
+*** =fullwidth
+
+Share early results or discuss major findings with primary authors in other departments
 
 --- 
 
-## Open data
+## Open Lab notebook / Twitter
+<br><br>
+
+> * Open lab notebooks = amazing provenance / opportunity for engagement 
+> * Open lab notebooks can require more technical skill to set-up
+> * Sharing on Twitter / blogs is easier
+> * Twitter is a poor platform for idea provenance
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
+
+---
+
+## Open Lab notebook / Twitter
+<br><br>
+
+.fragment *"This evidence suggests that the practice of open notebook science can faciliate both the performance and dissemination of research while remaining compatible and even synergistic with academic publishing." - Carl Boettiger*
+<br><br>
+
+.fragment *"...we believe there can be great and unexpected value to including social media into the life cycle of a scientific paper." - Darling et al 2013*
 
 ---
 
