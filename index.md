@@ -93,12 +93,12 @@ __Open science stack is all the tools you need to produce open science__
 --- ds:noborder
 
 ## Open lab notebook
-
+<font size = 4>*http://www.carlboettiger.info/lab-notebook.html*
+</font>
 ![](assets/img/carl1.png)
 <br>
 
-<font size = 4>*http://www.carlboettiger.info/lab-notebook.html*
-</font>
+
 
 --- ds:noborder
 
@@ -112,19 +112,12 @@ __Open science stack is all the tools you need to produce open science__
 --- &twocol ds:noborder
 
 ## Virtual department on twitter
-
+Share early results or discuss major findings with primary authors in other departments
 *** =left
-
 ![](assets/img/rails.png)
-
-
-
 *** =right
 ![](assets/img/cook.png)
 
-*** =fullwidth
-
-Share early results or discuss major findings with primary authors in other departments
 
 --- 
 
@@ -153,15 +146,131 @@ $('ol.incremental li').addClass('fragment')
 
 ---
 
+## Open data
+<br>
+<br>
+*“Open data and content can be freely used, modified, and shared by anyone for any purpose” - Open Knowledge Foundation*
+
+--- &twocol ds:noborder
+
 ## Advantages of open data
 
+Your data can be used long after you're gone
+
+*** =left
+
+![](assets/img/datalifecycle.png)
+
+
+
+*** =right
+![](assets/img/vines.png)
+
+<font size = 4>*(Figure 1D - Vines et al 2014)*
+</font>
+
+
+--- ds:noborder
+
+## Advantages of open data
+
+Increased citation (9%)
+
+![](assets/img/piowar.png)
+
+<font size = 4>*(Figure 2 - Piowar and Vision 2013)*
+</font>
+
+--- ds:noborder
+
+## Have a plan for your data
+
+![](assets/img/dmpcycle.png)
+
+<font size = 4>(dataone.org)
+
+http://dmptool.org     
+</font>
+
 ---
 
-## Caring for your data
+
+## TL;DR rules for sharing open data
+<br><br>
+> 1. Use an open format
+> 2. Use a metadata standards
+> 3. Use an open license
+> 4. Use an open repository
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
 
 ---
 
-## Metadata best practices
+## Open data formats
+<br><br>
+**What makes a format open?**
+<br>
+> * ASCII based
+> * Binary but maintained by an open consortium
+> * Machine independent
+> * Machine readable (should be)
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
+
+--- &twocol ds:noborder
+
+## Data format examples
+
+*** =left
+
+![](assets/img/locks.png)
+
+* FASTA / EMBL / Genbank
+* NeXML / NEXUS
+* GeoJSON / KML
+* CSV
+* NetCDF/HDF5
+
+*** =right
+![](assets/img/lock-closed.png)
+* Excel
+* Any proprietary DB
+  * Oracle
+  * Access
+* ESRI shape file
+
+--- ds:noborder
+
+![](assets/img/metadata.png)
+<br><br><br>
+
+> * Know your discipline specific standard
+> * Know your journal's policy
+> * Know your repository's policy
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
+
+--- ds:noborder
+
+![](assets/img/metadata.png)
+<br><br>
+**Some metadata standards**
+
+<br>
+> * *EML* - Ecology
+> * *Darwin Core* - Biodiversity data
+> * *CF* - Climate data
+> * *ISO 19115* - GIS data
+> * *MIMS / MIMARK* - Genomic / Metagenomic data
 
 ---
 
