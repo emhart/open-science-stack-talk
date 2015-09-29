@@ -251,6 +251,7 @@ $('ol.incremental li').addClass('fragment')
 <br><br><br>
 
 > * Know your discipline specific standard
+> * Know your funding agency policy
 > * Know your journal's policy
 > * Know your repository's policy
 
@@ -272,25 +273,101 @@ $('ol.incremental li').addClass('fragment')
 > * *ISO 19115* - GIS data
 > * *MIMS / MIMARK* - Genomic / Metagenomic data
 
+--- ds:noborder
+
+## License please!
+
+<br><br>
+![](assets/img/comic.png)
+
+*"To anyone who wants to photocopy, bind, and give a copy of the book to their loved one — more power to them. He/She will likely be disappointed that you’re so cheap, though." - Randall Munroe (xkcd)* 
+
+--- ds:noborder
+
+## License please!
+<br><br>
+
+Your most open choice, public domain!
+<br>
+![](assets/img/cc0.png)
+
+.fragment Choose a Creative Commons license that fits your comfort level 
+<br>
+
+.fragment No license does not mean your data is open!
+<br>
+
+<font size = 4 class="fragment">http://creativecommons.org/choose/</font>
+
 ---
 
-## Where do I share?
+## Data repositories
+<br><br>
+**Ideally:**
+
+> * Persistent with fail safes
+> * Require metadata
+> * Allow versioning
+> * Issue a DOI for citability
+> * Be open (with an API)!
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
+
+---
+## Data repositories
+<br><br>
+**Some suggestions**
+<br>
+* *General purpose* - Figshare / Zenodo / Dataverse
+* *Biodiversity* - GBIF / KNB
+* *Nucleic acid sequences* - Genbank / EMBL
+<br><br>
+
+For more suggestions:
+
+
+<font size = 5>http://www.nature.com/sdata/data-policies/repositories</font>
+
+<font size = 5>http://journals.plos.org/plosone/s/data-availability</font>
+
 
 ---
 
-## Open code
+## Open source / code sharing
+
+<br><br>
+![](assets/img/xkcd_code.png)
+
 
 ---
 
-## Computing best practices
+## Advantages of open source
+<br><br>
+> * Facilitates reproducibility 
+> * Enables collaboration
+> * Incentivises writing clean code (future you thanks you)
+
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
 
 --- 
 
 ## Sharing code
+<br><br>
+* Use version control! (git / <strike>svn</strike>)
+* Write human readable comments
+* Share on a public repository (GitHub / Bitbucket)
+* Use an open source platform (e.g. **NOT** matlab, mathematica)
+* Archive releases and assign DOI's
+<br><br>
+<font size = 5>http://guides.github.com/activities/citable-code/</font>
 
----
-
-## Code as research object
 
 ---
 
