@@ -43,31 +43,49 @@ Complete transparency in the scientific process
 <font size = 4>*(adopted from Hampton et al 2014)*
 </font>
 
+---  ds:noborder
+
+## Why Open Science?
+
+Crisis in public confidence
+
+![](assets/img/econ.jpg)
+
+
+---  ds:noborder
+
+## Why Open Science?
+
+Combat high profile retractions
+
+![](assets/img/rr.png)
+
+![](assets/img/lecour.png)
+
+
+---  ds:noborder
+
+## Why Open Science?
+
+Journals care.
+
+![](assets/img/nyt.png)
+
+---  ds:noborder
+
+
+## Why Open Science?
+
+Journals care.
+
+![](assets/img/rrnature.png)
+
+
+
 ---
+ *"the major hurdle to overcome when trying to convince others that we should strive for Open Science: it is a major pain in the ass and is really expensive, in terms of both the money and amount of time required.* 
 
-*"the major hurdle to overcome when trying to convince others that we should strive for Open Science: it is a major pain in the ass and is really expensive, in terms of both the money and amount of time required."* - Emilio Bruna, UF, editor Biotropica
-
----
-
-## Advantages of open science
-<br><br>
-
-> * Efficiency in the research cycle 
-> * Greater collaboration / scrutiny
-> * New research capabilities
-> * Increased impact
-
-<font size = 4 class="fragment">*(Whyte and Prior 2011)*
-</font>
-
-<script>
-$('ul.incremental li').addClass('fragment')
-$('ol.incremental li').addClass('fragment')
-</script>
-
----
-
-*"We need to stop telling people 'You should' and get better at telling people 'Here’s how' "* - Emilio Bruna
+.fragment *We need to stop telling people 'You should' and get better at telling people 'Here’s how' "* - Emilio Bruna, UF, editor Biotropica
 
 --- ds:noborder
 ## What is the open science stack?
@@ -84,8 +102,8 @@ A stack is a complete group of components that work together to produce a goal.
 * Open lab notebooks / sharing
 * Open Data
 * Open Source / code sharing
-* Open/reproducible documents
-* Open Access
+* Reproducible writing
+* Open Access / pre-prints
   
 <br><br>
 __Open science stack is all the tools you need to produce open science__
@@ -334,7 +352,7 @@ For more suggestions:
 <font size = 5>http://journals.plos.org/plosone/s/data-availability</font>
 
 
----
+--- ds:noborder
 
 ## Open source / code sharing
 
@@ -349,7 +367,7 @@ For more suggestions:
 > * Facilitates reproducibility 
 > * Enables collaboration
 > * Incentivises writing clean code (future you thanks you)
-
+> * More people will use what you build
 
 <script>
 $('ul.incremental li').addClass('fragment')
@@ -362,41 +380,207 @@ $('ol.incremental li').addClass('fragment')
 <br><br>
 * Use version control! (git / <strike>svn</strike>)
 * Write human readable comments
+* Use a license (MIT / GPL / BSD)
 * Share on a public repository (GitHub / Bitbucket)
 * Use an open source platform (e.g. **NOT** matlab, mathematica)
+* Distribute it (CRAN / pipy)
 * Archive releases and assign DOI's
 <br><br>
 <font size = 5>http://guides.github.com/activities/citable-code/</font>
 
+--- ds:noborder
+
+## Sharing code and data
+
+![](assets/img/lizziefig.png)
+<br><br>
+<font size = 4>Wolkovich et al. 2012</font>
+
+
+
+--- &twocol ds:noborder
+
+## Reproducible documents
+<br><br>
+PDF text and figures is generated from code on the left
+*** =left
+![](assets/img/rdoc1.png)
+
+*** =right
+![](assets/img/rdoc2.png)
+
+
+---ds:noborder
+ 
+## Reproducible documents
+<br><br>
+Code snippets embedded in text formatting
+
+![](assets/img/latex_logo.png)
+&nbsp;&nbsp;&nbsp;&nbsp;
+![](assets/img/mdlogo.png)
+
+
+---ds:noborder
+
+## Writing in the open
+
+Collaboration on GitHub
+
+![](assets/img/gitcollab.png)
 
 ---
 
-## Publishing
+## Reproducible document skills
+<br>
+<br>
+> * Markdown / Latex
+> * Git or other VCS
+> * R (or python)
+> * Patience!
 
- * Reproducible documents
- * preprint servers
- * open access
- 
-## Reproducible documents
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
+
+--- &twocol ds:noborder
+
+## Reproducible document 
+
+*** =left
+![](assets/img/emoji_angel.png)
+
+
+* Open format 
+* Fully reproducible document
+* Strong provenance tracking
+
+*** =right
+![](assets/img/emoji_devil.png)
+
+* Formatting problems
+* Your collaborators may hate you
+* Opportunity costs
+* Software updates can break your document
 
 ---
 
 ## Pre-prints
 
- * what is the policy
- * ethan's paper
+<br><br>
+*"...not only does our newly-accepted PNAS paper have two citations, both from before it was accepted, but another group has already extended our approach in a new direction." - C. Titus Brown, UC Davis*
+<br><br>
+<font size = 4>http://ivory.idyll.org/blog/science-f-yeah.html</font>
 
---- 
+--- &twocol ds:noborder
 
-## Open access
+## Pre-prints
+<br><br>
+*** =left
+![](assets/img/preprint.png)
 
- * benefits of open access
- 
+<font size = 4>(Figure 1. Desjardins-Proulx et al 2013)</font>
+
+*** =right
+1. Immediate visibility for your work
+2. Establishment of idea precedence
+3. Improved peer-review
+4. Citation before publication
+<br><br>
+<font size = 4>(Desjardins-Proulx et al 2013)</font>
+
+--- ds:noborder
+
+## Pre-prints
+Pre-Print feedback on White et al. 2013
+
+![](assets/img/ppfeedback.png)
+
 ---
 
-## 
+## Pre-prints
+
+Where to submit:
+
+* PeerJ
+* arXiv
+* bioRxiv
+* Figshare 
+<br>
+<font size = 4> Be aware of your target journal's preprint policy!</font>
+
+--- ds:noborder
+
+## Open Access
+
+![](assets/img/oalogo.png)
+<br>
+*“Open Access (OA) literature
+is digital, online, free of charge, and free of most copyright and licensing
+restrictions.” - Peter Suber (Suber 2012)*
+
+--- &twocol ds:noborder
+
+## Open Access
+<br>
+Two levels of Open Access
+<br><br>
+*** =left
+<font color = "#e5c100 "> **Gold Open Access** </font> 
+
+* Open license
+* No restrictions
+* Author pays fees 
+* Publisher hosts
+
+
+*** =right
+<font color = "green"> **Green Open Access** </font> 
+
+* License varies by journal
+* Journal restrictions
+  * Embargo
+  * Copyright
+  * Repository location
+  * Text-mining / reuse
+* Free 
+* Author / Institution hosts
+
+---
+
+## Open Access
+<br><br>
+**Some Gold OA journals**
+<br>
+* PLoS
+* PeerJ
+* Scientific Reports
+* Nature Communications
+* F1000 Research
+* Ecosphere
+* BioMedCentral
+
+
+---
+
+## Advantages of open source
+<br><br>
+> * Facilitates reproducibility 
+> * Enables collaboration
+> * Incentivises writing clean code (future you thanks you)
+> * More people will use what you build
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
+
+
+---
 
 *"It is possible to achieve some measure of traditional success while being open. Grants; publications; tenure. 'nuff said."* - C. Titus Brown, UC Davis
+
 
 
 
