@@ -14,7 +14,7 @@ knit        : slidify::knit2slides
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 ## The open science stack
-#### Better living through open science
+#### Creating open science workflows
 ![](assets/img/stack.png)
 
 ---  ds:noborder
@@ -70,8 +70,8 @@ Combat high profile retractions
 
 ![](assets/img/lecour.png)
 
-<br><br>
-*"The debunkers could do their debunking only because of a bit of luck: Data they needed happened to be available not from its original source, but through another researcher who had posted it to meet a journal’s open-data policies. (fivethirtyeight.com)"* - 
+<br>
+*"The debunkers could do their debunking only because of a bit of luck: Data they needed happened to be available not from its original source, but through another researcher who had posted it to meet a journal’s open-data policies. (fivethirtyeight.com)"*  
 
 ---  ds:noborder
 
@@ -257,7 +257,7 @@ $('ol.incremental li').addClass('fragment')
 
 *** =left
 
-![](assets/img/locks.png)
+**Open**
 
 * FASTA / EMBL / Genbank
 * NeXML / NEXUS
@@ -266,7 +266,8 @@ $('ol.incremental li').addClass('fragment')
 * NetCDF/HDF5
 
 *** =right
-![](assets/img/lock-closed.png)
+**Closed** 
+
 * Excel
 * Any proprietary DB
   * Oracle
@@ -349,7 +350,7 @@ $('ol.incremental li').addClass('fragment')
 <br><br>
 **Some suggestions**
 <br>
-* *General purpose* - Figshare / Zenodo / Dataverse
+* *General purpose* - Figshare / Zenodo 
 * *Biodiversity* - GBIF / KNB
 * *Nucleic acid sequences* - Genbank / EMBL
 <br><br>
@@ -388,15 +389,21 @@ $('ol.incremental li').addClass('fragment')
 
 ## Sharing code
 <br><br>
-* Use version control! (git / <strike>svn</strike>)
-* Write human readable comments
-* Use a license (MIT / GPL / BSD)
-* Share on a public repository (GitHub / Bitbucket)
-* Use an open source platform (e.g. **NOT** matlab, mathematica)
-* Distribute it (CRAN / pipy)
-* Archive releases and assign DOI's
+> * Use version control! (git / <strike>svn</strike>)
+> * Write human readable comments
+> * Use a license (MIT / GPL / BSD)
+> * Share on a public repository (GitHub / Bitbucket)
+> * Use an open source platform (e.g. **NOT** matlab, mathematica)
+> * Distribute it (CRAN / pipy)
+> * Archive releases and assign DOI's
 <br><br>
-<font size = 5>http://guides.github.com/activities/citable-code/</font>
+<font size = 5 class=fragment>http://guides.github.com/activities/citable-code/</font>
+
+<script>
+$('ul.incremental li').addClass('fragment')
+$('ol.incremental li').addClass('fragment')
+</script>
+
 
 --- ds:noborder
 
@@ -429,6 +436,17 @@ Code snippets embedded in text formatting
 ![](assets/img/latex_logo.png)
 &nbsp;&nbsp;&nbsp;&nbsp;
 ![](assets/img/mdlogo.png)
+
+
+
+
+---ds:noborder
+ 
+## Reproducible documents
+<br><br>
+Code snippets embedded in text formatting
+
+![](assets/img/rdoc1_an.png)
 
 
 ---ds:noborder
@@ -573,23 +591,26 @@ Two levels of Open Access
 
 
 ---
+## Advantages of open science
 
-## Advantages of open source
 <br><br>
-> * Facilitates reproducibility 
-> * Enables collaboration
-> * Incentivises writing clean code (future you thanks you)
-> * More people will use what you build
+* Efficiency in the research cycle 
+* Greater collaboration / scrutiny
+* New research capabilities
+* Increased impact
 
-<script>
-$('ul.incremental li').addClass('fragment')
-$('ol.incremental li').addClass('fragment')
-</script>
-
+<font size = 4>*(Whyte and Prior 2011)*
+</font>
 
 ---
 
 *"It is possible to achieve some measure of traditional success while being open. Grants; publications; tenure. 'nuff said."* - C. Titus Brown, UC Davis
+<br><br>
+http://bit.ly/osstack
+<br>
+@emhrt_
+
+---
 
 
 
