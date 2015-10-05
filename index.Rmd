@@ -62,6 +62,16 @@ Combat high profile retractions
 
 ![](assets/img/lecour.png)
 
+---  ds:noborder
+
+## Why Open Science?
+
+Combat high profile retractions
+
+![](assets/img/lecour.png)
+
+<br><br>
+*"The debunkers could do their debunking only because of a bit of luck: Data they needed happened to be available not from its original source, but through another researcher who had posted it to meet a journal’s open-data policies. (fivethirtyeight.com)"* - 
 
 ---  ds:noborder
 
